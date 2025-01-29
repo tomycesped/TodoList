@@ -31,6 +31,8 @@
     align-items: center;
     text-align: center;
     line-height: 1; 
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .CreateTodoButton:hover {
