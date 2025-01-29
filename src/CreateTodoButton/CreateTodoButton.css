@@ -23,7 +23,7 @@
     border-style: none;
     border-radius: 50%;
     cursor: pointer;
-    font-size: 45px; 
+    font-size: 1.5rem; 
     color: white;
     height: 70px;
     width: 70px;
@@ -37,6 +37,7 @@
     text-overflow: ellipsis; 
     overflow: hidden; 
     white-space: nowrap;
+    box-sizing: border-box;
 }
 
 .CreateTodoButton:hover {
