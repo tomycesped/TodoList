@@ -10,7 +10,7 @@
 
   input {
     height: 30px;
-    width: 400px;
+    width: 50%;
     border-radius: 2px;
     background-color: rgb(237, 244, 249);
     outline: none;

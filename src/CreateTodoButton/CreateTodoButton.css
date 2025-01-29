@@ -12,7 +12,7 @@
 
 .boton.pulse {
     animation: bounceColorShift 1.5s infinite ease-in-out;
-    display: fixed;
+    position: fixed;
 }
 
  .CreateTodoButton {
