@@ -52,7 +52,7 @@
 }
 
 .CreateTodoButton.rotated {
-    transform: rotate(135deg);
+    transform: rotate(45deg);
     transition: transform 0.5s ease;
     animation: none;
 }
@@ -84,3 +84,21 @@
     }
 }
 
+@media (max-width: 768px) {
+    .CreateTodoButton:hover {
+        transform: none;
+        transition: 0.2s;
+    }
+
+    .CreateTodoButton:active {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(135, 206, 250, 0.8);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .CreateTodoButton.rotated:hover {
+        transform: rotate(45deg);
+        transition: 0.2s;
+    }
+    
+}
