@@ -33,11 +33,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 60px; 
+    line-height: 70px;
+    -webkit-line-height: 60px;
     text-overflow: ellipsis; 
     overflow: hidden; 
     white-space: nowrap;
-    box-sizing: border-box;
 }
 
 .CreateTodoButton:hover {
