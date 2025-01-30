@@ -13,6 +13,7 @@ li {
     justify-content: center;
     display: flex;
     align-content: center;
+    position: relative;
 }
 span {
     padding-left: 10px;
@@ -22,3 +23,22 @@ span {
 .TodoItem-p--complete {
     text-decoration: line-through;
 }
+
+.CopyButton {
+    align-items: center;
+    display: flex;
+    margin-right: 56%;
+    margin-top: 15px;
+    position: absolute;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    width: 42px;
+    height: 42px;
+  }
+  
+  .CopyButton:active {
+    transform: rotate(20deg);
+  }
+
+  

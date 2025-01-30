@@ -8,7 +8,6 @@ function useLocalStorage(itemName, initialValue) {
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(false);
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
     React.useEffect(() => { 
       setTimeout(() => {
         const localStorageItem = localStorage.getItem(itemName);
