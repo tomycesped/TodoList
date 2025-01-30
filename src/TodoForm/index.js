@@ -28,7 +28,7 @@ function TodoForm({ resetRotation }) {
     return(
         <form onSubmit={onSubmit}>
             <label>Escribe tu nueva tarea</label>
-            <textarea placeholder="Cortar Cebolla..." value={newTodoValue} onChange={onChange} required/>
+            <textarea placeholder="Acariciar a oli 🐈‍⬛..." value={newTodoValue} onChange={onChange} required/>
             <div className="TodoForm-buttonContainer">
             <button type="button"  className="TodoForm-button TodoForm-button--cancel" onClick={onCancel}>Cancelar
             </button>
