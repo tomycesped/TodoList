@@ -15,6 +15,7 @@
     background-color: rgb(237, 244, 249);
     outline: none;
     border-style: solid;
+    font-size: 16px;
   }
 
   input:focus {
