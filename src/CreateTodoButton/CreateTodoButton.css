@@ -32,19 +32,11 @@
     transition: transform 0.3s ease;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: end;
     text-align: center;
-    line-height: 70px;
     text-overflow: ellipsis; 
     overflow: hidden; 
     white-space: nowrap;
-}
-
-@supports (-webkit-appearance: none) {
-    .CreateTodoButton {
-        line-height: 60px;
-        border-radius: 50%; /* Ajuste específico para Safari */
-    }
 }
 
 .CreateTodoButton:hover {
