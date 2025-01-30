@@ -19,7 +19,7 @@ function CreateTodoButton({setOpenModal}) {
                 }
             }
         }
-        > + </button>
+        >✚</button>
         </div>
     )
 }
