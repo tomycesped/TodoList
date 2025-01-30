@@ -20,6 +20,7 @@
 }
 
 .CreateTodoButton {
+    user-select: none;
     transform-origin: center;
     background-color: skyblue;
     border-style: none;
